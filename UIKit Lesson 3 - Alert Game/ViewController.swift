@@ -27,7 +27,6 @@ class ViewController: UIViewController {
             self.welcomeOutlet.text! += name ?? ""
         }
 
-
         alertController.addAction(alertAction)
         self.present(alertController, animated: true)
 
